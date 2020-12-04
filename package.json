@@ -1,6 +1,6 @@
 {
   "name": "@node-gr/core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "types": "types.d.ts",
@@ -20,6 +20,10 @@
     "decorators"
   ],
   "author": "Grami Mohamed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grami-mhd/nodeGr-core.git"
+  },
   "private": false,
   "license": "ISC",
   "peerDependencies": {
