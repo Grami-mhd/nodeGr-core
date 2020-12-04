@@ -1,0 +1,35 @@
+{
+  "name": "@node-gr/core",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "build": "tsc && npm run copy",
+    "copy": "cp README.md dist/README.md && cp .gitignore dist/.gitignore && cp package.json dist/package.json",
+    "test": "test",
+    "build:publish": "npm run build && npm publish dist --access public",
+    "dry:publish": "npm publish dist --access public --dry-run"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "typescript",
+    "mongoose",
+    "mean stack",
+    "decorators"
+  ],
+  "author": "Grami Mohamed",
+  "private": false,
+  "license": "ISC",
+  "peerDependencies": {
+    "express": " >= 4.x",
+    "mongoose": ">= 5.x",
+    "@types/mongodb": ">= 3.x",
+    "@types/mongoose": ">= 5.x",
+    "@types/express": ">= 4.x"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
